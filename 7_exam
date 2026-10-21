@@ -1,0 +1,10 @@
+# 7_exam - Exam Grading - Shyamala 26000017
+marks = [("Telugu",78), ("English",85), ("Maths",90)]
+total = 0
+for sub, m in marks:
+    total += m
+avg = total/len(marks)
+print("Total:", total, "Avg:", avg)
+if avg >= 90: print("A+")
+elif avg >= 75: print("A")
+else: print("B")
