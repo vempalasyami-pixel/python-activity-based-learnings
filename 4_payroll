@@ -1,0 +1,4 @@
+# Payroll - Shyamala 26000017
+basic = float(input("Basic: "))
+net = basic + basic*0.2 - basic*0.12
+print("Net Salary:", net)
