@@ -1,0 +1,4 @@
+students = [("Ravi", 480, 85, 45000), ("Sita", 490, 90, 30000)]
+for name, marks, att, income in students:
+    if marks >= 450 and att >= 75 and income <= 60000:
+        print(name, "Eligible")
