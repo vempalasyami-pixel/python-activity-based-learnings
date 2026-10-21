@@ -1,0 +1,8 @@
+# 9_atm - ATM - Shyamala 26000017
+balance = 10000
+withdraw = int(input("Withdraw: "))
+if withdraw <= balance:
+    balance -= withdraw
+    print("Success! Balance:", balance)
+else:
+    print("Insufficient Balance")
