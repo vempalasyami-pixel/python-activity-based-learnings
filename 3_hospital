@@ -1,0 +1,6 @@
+# Hospital Billing - Shyamala 26000017
+days = int(input("Days: "))
+total = days * 2000
+if days > 10:
+    total = total * 0.9
+print("Total:", total)
