@@ -1,0 +1,18 @@
+# 5. Retail Billing - Vempala Shyamala 26000017
+# Using list, tuple, loop
+
+products = [("Soap", 50, 2), ("Oil", 100, 1), ("Rice", 200, 3)]
+
+total = 0
+for name, price, qty in products:
+    bill = price * qty
+    total += bill
+    print(f"{name}: {bill}")
+
+# Discount if > 500
+if total > 500:
+    discount = total * 0.10
+    total = total - discount
+    print(f"Discount: {discount}")
+
+print(f"Final Bill: {total}")
