@@ -1,0 +1,9 @@
+# 8_attendence - Attendance - Shyamala 26000017
+present = 82
+total = 100
+percent = (present/total)*100
+print(f"Attendance {percent}%")
+if percent < 75:
+    print("Not Eligible")
+else:
+    print("Eligible")
