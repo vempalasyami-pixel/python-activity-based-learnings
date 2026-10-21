@@ -1,0 +1,10 @@
+# 10_inventory - Inventory - Shyamala 26000017
+inventory = [("Pen",10,50), ("Book",40,20), ("Bag",300,5)]
+total_val = 0
+for item, price, stock in inventory:
+    val = price*stock
+    total_val += val
+    print(item, "Value:", val)
+    if stock < 10:
+        print(item, "Low Stock!")
+print("Total Value:", total_val)
