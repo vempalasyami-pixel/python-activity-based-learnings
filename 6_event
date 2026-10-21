@@ -1,0 +1,8 @@
+# 6_event - Campus Event - Shyamala 26000017
+budget = 20000
+expenses = [("Decoration", 5000), ("Food", 7000), ("Sound", 4000)]
+spent = 0
+for name, cost in expenses:
+    spent += cost
+    print(name, cost)
+print("Spent:", spent, "Left:", budget-spent)
